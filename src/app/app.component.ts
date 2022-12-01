@@ -1,3 +1,4 @@
+import { UiService } from './services/ui.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Madisson-DoctorAssesment';
+    constructor(public ui:UiService) {
+      
+   }
+  
+
 }

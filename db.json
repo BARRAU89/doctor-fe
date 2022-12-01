@@ -1,0 +1,36 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "username": "reguser",
+            "password": "pass",
+            "doctor": false
+        },
+        {
+            "id": 1,
+            "username": "docuser",
+            "password": "pass",
+            "doctor": true
+        }
+    ],
+
+    "appintments": [
+        {
+            "doctorId": 1,
+            "patientId": null,
+            "date": "2022-11-30",
+            "slot": 0 
+
+        },
+        {
+            "doctorId": 1,
+            "patientId": 0,
+            "date": "2022-11-30",
+            "slot": 1 
+             
+        }
+
+
+    ]
+
+}
